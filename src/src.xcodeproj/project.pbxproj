@@ -1,0 +1,174 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXFileReference section */
+		397783242CAF3B36005604C3 /* hamtrek.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hamtrek.h; sourceTree = "<group>"; };
+		397783252CAF3B36005604C3 /* buildforwindows.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = buildforwindows.txt; sourceTree = "<group>"; };
+		397783262CAF3B36005604C3 /* crewdialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = crewdialog.h; sourceTree = "<group>"; };
+		397783272CAF3B36005604C3 /* reports.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = reports.c; sourceTree = "<group>"; };
+		397783282CAF3B36005604C3 /* ai.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ai.c; sourceTree = "<group>"; };
+		397783292CAF3B36005604C3 /* makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
+		3977832A2CAF3B36005604C3 /* planets.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = planets.c; sourceTree = "<group>"; };
+		3977832B2CAF3B36005604C3 /* watch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = watch.c; sourceTree = "<group>"; };
+		3977832C2CAF3B36005604C3 /* colors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = colors.h; sourceTree = "<group>"; };
+		3977832D2CAF3B36005604C3 /* osx.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = osx.c; sourceTree = "<group>"; };
+		3977832E2CAF3B36005604C3 /* setup.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = setup.c; sourceTree = "<group>"; };
+		3977832F2CAF3B36005604C3 /* hamtrek.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hamtrek.c; sourceTree = "<group>"; };
+		397783302CAF3B36005604C3 /* finish.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = finish.c; sourceTree = "<group>"; };
+		397783312CAF3B36005604C3 /* battle.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = battle.c; sourceTree = "<group>"; };
+		397783322CAF3B36005604C3 /* crewdialog.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = crewdialog.c; sourceTree = "<group>"; };
+		397783332CAF3B36005604C3 /* moving.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = moving.c; sourceTree = "<group>"; };
+		397783342CAF3B36005604C3 /* events.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = events.c; sourceTree = "<group>"; };
+		397783352CAF3B36005604C3 /* watch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = watch.h; sourceTree = "<group>"; };
+		397783362CAF3B36005604C3 /* colors.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = colors.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		3977831E2CAF3B36005604C3 = {
+			isa = PBXGroup;
+			children = (
+				397783242CAF3B36005604C3 /* hamtrek.h */,
+				397783252CAF3B36005604C3 /* buildforwindows.txt */,
+				397783262CAF3B36005604C3 /* crewdialog.h */,
+				397783272CAF3B36005604C3 /* reports.c */,
+				397783282CAF3B36005604C3 /* ai.c */,
+				397783292CAF3B36005604C3 /* makefile */,
+				3977832A2CAF3B36005604C3 /* planets.c */,
+				3977832B2CAF3B36005604C3 /* watch.c */,
+				3977832C2CAF3B36005604C3 /* colors.h */,
+				3977832D2CAF3B36005604C3 /* osx.c */,
+				3977832E2CAF3B36005604C3 /* setup.c */,
+				3977832F2CAF3B36005604C3 /* hamtrek.c */,
+				397783302CAF3B36005604C3 /* finish.c */,
+				397783312CAF3B36005604C3 /* battle.c */,
+				397783322CAF3B36005604C3 /* crewdialog.c */,
+				397783332CAF3B36005604C3 /* moving.c */,
+				397783342CAF3B36005604C3 /* events.c */,
+				397783352CAF3B36005604C3 /* watch.h */,
+				397783362CAF3B36005604C3 /* colors.c */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		397783232CAF3B36005604C3 /* src */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 397783372CAF3B36005604C3 /* Build configuration list for PBXLegacyTarget "src" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = /Users/danielray/Documents/dev/hamtrek/src;
+			dependencies = (
+			);
+			name = src;
+			passBuildSettingsInEnvironment = 1;
+			productName = src;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		3977831F2CAF3B36005604C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+			};
+			buildConfigurationList = 397783222CAF3B36005604C3 /* Build configuration list for PBXProject "src" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3977831E2CAF3B36005604C3;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				397783232CAF3B36005604C3 /* src */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		397783202CAF3B36005604C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		397783212CAF3B36005604C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		397783382CAF3B36005604C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = src;
+			};
+			name = Debug;
+		};
+		397783392CAF3B36005604C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = src;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		397783222CAF3B36005604C3 /* Build configuration list for PBXProject "src" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				397783202CAF3B36005604C3 /* Debug */,
+				397783212CAF3B36005604C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		397783372CAF3B36005604C3 /* Build configuration list for PBXLegacyTarget "src" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				397783382CAF3B36005604C3 /* Debug */,
+				397783392CAF3B36005604C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3977831F2CAF3B36005604C3 /* Project object */;
+}

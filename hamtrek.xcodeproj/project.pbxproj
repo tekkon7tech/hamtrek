@@ -23,6 +23,28 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3977831C2CAF3B0C005604C3 /* hamtrek.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = hamtrek.txt; sourceTree = "<group>"; };
+		3977831D2CAF3B0C005604C3 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		3977833A2CAF3B36005604C3 /* ai.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ai.c; sourceTree = "<group>"; };
+		3977833B2CAF3B36005604C3 /* battle.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = battle.c; sourceTree = "<group>"; };
+		3977833C2CAF3B36005604C3 /* buildforwindows.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = buildforwindows.txt; sourceTree = "<group>"; };
+		3977833D2CAF3B36005604C3 /* colors.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = colors.c; sourceTree = "<group>"; };
+		3977833E2CAF3B36005604C3 /* colors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = colors.h; sourceTree = "<group>"; };
+		3977833F2CAF3B36005604C3 /* crewdialog.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = crewdialog.c; sourceTree = "<group>"; };
+		397783402CAF3B36005604C3 /* crewdialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = crewdialog.h; sourceTree = "<group>"; };
+		397783412CAF3B36005604C3 /* events.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = events.c; sourceTree = "<group>"; };
+		397783422CAF3B36005604C3 /* finish.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = finish.c; sourceTree = "<group>"; };
+		397783432CAF3B36005604C3 /* hamtrek.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hamtrek.c; sourceTree = "<group>"; };
+		397783442CAF3B36005604C3 /* hamtrek.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hamtrek.h; sourceTree = "<group>"; };
+		397783452CAF3B36005604C3 /* makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
+		397783462CAF3B36005604C3 /* moving.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = moving.c; sourceTree = "<group>"; };
+		397783472CAF3B36005604C3 /* osx.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = osx.c; sourceTree = "<group>"; };
+		397783482CAF3B36005604C3 /* planets.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = planets.c; sourceTree = "<group>"; };
+		397783492CAF3B36005604C3 /* reports.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = reports.c; sourceTree = "<group>"; };
+		3977834A2CAF3B36005604C3 /* setup.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = setup.c; sourceTree = "<group>"; };
+		3977834B2CAF3B36005604C3 /* src.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = src.xcodeproj; sourceTree = "<group>"; };
+		3977834C2CAF3B36005604C3 /* watch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = watch.c; sourceTree = "<group>"; };
+		3977834D2CAF3B36005604C3 /* watch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = watch.h; sourceTree = "<group>"; };
 		39B5CF792CAD6ADE009ED119 /* hamtrek */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hamtrek; sourceTree = BUILT_PRODUCTS_DIR; };
 		39B5CF7C2CAD6ADE009ED119 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,9 +60,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3977834E2CAF3B36005604C3 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				3977833A2CAF3B36005604C3 /* ai.c */,
+				3977833B2CAF3B36005604C3 /* battle.c */,
+				3977833C2CAF3B36005604C3 /* buildforwindows.txt */,
+				3977833D2CAF3B36005604C3 /* colors.c */,
+				3977833E2CAF3B36005604C3 /* colors.h */,
+				3977833F2CAF3B36005604C3 /* crewdialog.c */,
+				397783402CAF3B36005604C3 /* crewdialog.h */,
+				397783412CAF3B36005604C3 /* events.c */,
+				397783422CAF3B36005604C3 /* finish.c */,
+				397783432CAF3B36005604C3 /* hamtrek.c */,
+				397783442CAF3B36005604C3 /* hamtrek.h */,
+				397783452CAF3B36005604C3 /* makefile */,
+				397783462CAF3B36005604C3 /* moving.c */,
+				397783472CAF3B36005604C3 /* osx.c */,
+				397783482CAF3B36005604C3 /* planets.c */,
+				397783492CAF3B36005604C3 /* reports.c */,
+				3977834A2CAF3B36005604C3 /* setup.c */,
+				3977834B2CAF3B36005604C3 /* src.xcodeproj */,
+				3977834C2CAF3B36005604C3 /* watch.c */,
+				3977834D2CAF3B36005604C3 /* watch.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		3977834F2CAF3B36005604C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		39B5CF702CAD6ADE009ED119 = {
 			isa = PBXGroup;
 			children = (
+				3977831C2CAF3B0C005604C3 /* hamtrek.txt */,
+				3977831D2CAF3B0C005604C3 /* README */,
+				3977834E2CAF3B36005604C3 /* src */,
 				39B5CF7B2CAD6ADE009ED119 /* hamtrek */,
 				39B5CF7A2CAD6ADE009ED119 /* Products */,
 			);
@@ -107,6 +166,12 @@
 			mainGroup = 39B5CF702CAD6ADE009ED119;
 			productRefGroup = 39B5CF7A2CAD6ADE009ED119 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3977834F2CAF3B36005604C3 /* Products */;
+					ProjectRef = 3977834B2CAF3B36005604C3 /* src.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				39B5CF782CAD6ADE009ED119 /* hamtrek */,
