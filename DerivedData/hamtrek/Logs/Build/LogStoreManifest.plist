@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>11</integer>
+	<key>logs</key>
+	<dict>
+		<key>0070E6F1-9638-4574-BDEB-7F3B41250D5F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0070E6F1-9638-4574-BDEB-7F3B41250D5F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>26</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hamtrek project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hamtrek</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build hamtrek</string>
+			<key>timeStartedRecording</key>
+			<real>749817687.571522</real>
+			<key>timeStoppedRecording</key>
+			<real>749817688.67805195</real>
+			<key>title</key>
+			<string>Build hamtrek</string>
+			<key>uniqueIdentifier</key>
+			<string>0070E6F1-9638-4574-BDEB-7F3B41250D5F</string>
+		</dict>
+		<key>8A8181A8-92F6-4704-ACC7-A576E43EC04A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8A8181A8-92F6-4704-ACC7-A576E43EC04A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>1</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hamtrek project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hamtrek</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build hamtrek</string>
+			<key>timeStartedRecording</key>
+			<real>749817495.60094905</real>
+			<key>timeStoppedRecording</key>
+			<real>749817497.22400701</real>
+			<key>title</key>
+			<string>Build hamtrek</string>
+			<key>uniqueIdentifier</key>
+			<string>8A8181A8-92F6-4704-ACC7-A576E43EC04A</string>
+		</dict>
+		<key>901AE0FA-E164-4917-BA26-47C9F7C8002F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>901AE0FA-E164-4917-BA26-47C9F7C8002F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>27</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hamtrek project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hamtrek</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build hamtrek</string>
+			<key>timeStartedRecording</key>
+			<real>749776016.69472206</real>
+			<key>timeStoppedRecording</key>
+			<real>749776016.89422703</real>
+			<key>title</key>
+			<string>Build hamtrek</string>
+			<key>uniqueIdentifier</key>
+			<string>901AE0FA-E164-4917-BA26-47C9F7C8002F</string>
+		</dict>
+		<key>F52A01CD-6606-442F-9C77-7025C75DD6B4</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F52A01CD-6606-442F-9C77-7025C75DD6B4.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>1</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hamtrek project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hamtrek</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build hamtrek</string>
+			<key>timeStartedRecording</key>
+			<real>749817553.72156298</real>
+			<key>timeStoppedRecording</key>
+			<real>749817553.824664</real>
+			<key>title</key>
+			<string>Build hamtrek</string>
+			<key>uniqueIdentifier</key>
+			<string>F52A01CD-6606-442F-9C77-7025C75DD6B4</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

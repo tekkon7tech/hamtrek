@@ -7,7 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		39B5CF7D2CAD6ADE009ED119 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 39B5CF7C2CAD6ADE009ED119 /* main.c */; };
+		39D634B22CB14F51000572A1 /* ai.c in Sources */ = {isa = PBXBuildFile; fileRef = 3977833A2CAF3B36005604C3 /* ai.c */; };
+		39D634B32CB14F51000572A1 /* battle.c in Sources */ = {isa = PBXBuildFile; fileRef = 3977833B2CAF3B36005604C3 /* battle.c */; };
+		39D634B42CB14F51000572A1 /* colors.c in Sources */ = {isa = PBXBuildFile; fileRef = 3977833D2CAF3B36005604C3 /* colors.c */; };
+		39D634B52CB14F51000572A1 /* colors.h in Sources */ = {isa = PBXBuildFile; fileRef = 3977833E2CAF3B36005604C3 /* colors.h */; };
+		39D634B62CB14F51000572A1 /* crewdialog.c in Sources */ = {isa = PBXBuildFile; fileRef = 3977833F2CAF3B36005604C3 /* crewdialog.c */; };
+		39D634B72CB14F51000572A1 /* crewdialog.h in Sources */ = {isa = PBXBuildFile; fileRef = 397783402CAF3B36005604C3 /* crewdialog.h */; };
+		39D634B82CB14F51000572A1 /* events.c in Sources */ = {isa = PBXBuildFile; fileRef = 397783412CAF3B36005604C3 /* events.c */; };
+		39D634B92CB14F51000572A1 /* finish.c in Sources */ = {isa = PBXBuildFile; fileRef = 397783422CAF3B36005604C3 /* finish.c */; };
+		39D634BA2CB14F51000572A1 /* hamtrek.c in Sources */ = {isa = PBXBuildFile; fileRef = 397783432CAF3B36005604C3 /* hamtrek.c */; };
+		39D634BB2CB14F51000572A1 /* hamtrek.h in Sources */ = {isa = PBXBuildFile; fileRef = 397783442CAF3B36005604C3 /* hamtrek.h */; };
+		39D634BC2CB14F51000572A1 /* moving.c in Sources */ = {isa = PBXBuildFile; fileRef = 397783462CAF3B36005604C3 /* moving.c */; };
+		39D634BD2CB14F51000572A1 /* osx.c in Sources */ = {isa = PBXBuildFile; fileRef = 397783472CAF3B36005604C3 /* osx.c */; };
+		39D634BE2CB14F51000572A1 /* planets.c in Sources */ = {isa = PBXBuildFile; fileRef = 397783482CAF3B36005604C3 /* planets.c */; };
+		39D634BF2CB14F51000572A1 /* reports.c in Sources */ = {isa = PBXBuildFile; fileRef = 397783492CAF3B36005604C3 /* reports.c */; };
+		39D634C02CB14F51000572A1 /* setup.c in Sources */ = {isa = PBXBuildFile; fileRef = 3977834A2CAF3B36005604C3 /* setup.c */; };
+		39D634C12CB14F51000572A1 /* watch.c in Sources */ = {isa = PBXBuildFile; fileRef = 3977834C2CAF3B36005604C3 /* watch.c */; };
+		39D634C22CB14F51000572A1 /* watch.h in Sources */ = {isa = PBXBuildFile; fileRef = 3977834D2CAF3B36005604C3 /* watch.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,11 +58,9 @@
 		397783482CAF3B36005604C3 /* planets.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = planets.c; sourceTree = "<group>"; };
 		397783492CAF3B36005604C3 /* reports.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = reports.c; sourceTree = "<group>"; };
 		3977834A2CAF3B36005604C3 /* setup.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = setup.c; sourceTree = "<group>"; };
-		3977834B2CAF3B36005604C3 /* src.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = src.xcodeproj; sourceTree = "<group>"; };
 		3977834C2CAF3B36005604C3 /* watch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = watch.c; sourceTree = "<group>"; };
 		3977834D2CAF3B36005604C3 /* watch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = watch.h; sourceTree = "<group>"; };
 		39B5CF792CAD6ADE009ED119 /* hamtrek */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hamtrek; sourceTree = BUILT_PRODUCTS_DIR; };
-		39B5CF7C2CAD6ADE009ED119 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,18 +94,10 @@
 				397783482CAF3B36005604C3 /* planets.c */,
 				397783492CAF3B36005604C3 /* reports.c */,
 				3977834A2CAF3B36005604C3 /* setup.c */,
-				3977834B2CAF3B36005604C3 /* src.xcodeproj */,
 				3977834C2CAF3B36005604C3 /* watch.c */,
 				3977834D2CAF3B36005604C3 /* watch.h */,
 			);
 			path = src;
-			sourceTree = "<group>";
-		};
-		3977834F2CAF3B36005604C3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		39B5CF702CAD6ADE009ED119 = {
@@ -100,7 +106,6 @@
 				3977831C2CAF3B0C005604C3 /* hamtrek.txt */,
 				3977831D2CAF3B0C005604C3 /* README */,
 				3977834E2CAF3B36005604C3 /* src */,
-				39B5CF7B2CAD6ADE009ED119 /* hamtrek */,
 				39B5CF7A2CAD6ADE009ED119 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -111,14 +116,6 @@
 				39B5CF792CAD6ADE009ED119 /* hamtrek */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		39B5CF7B2CAD6ADE009ED119 /* hamtrek */ = {
-			isa = PBXGroup;
-			children = (
-				39B5CF7C2CAD6ADE009ED119 /* main.c */,
-			);
-			path = hamtrek;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,12 +163,6 @@
 			mainGroup = 39B5CF702CAD6ADE009ED119;
 			productRefGroup = 39B5CF7A2CAD6ADE009ED119 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 3977834F2CAF3B36005604C3 /* Products */;
-					ProjectRef = 3977834B2CAF3B36005604C3 /* src.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				39B5CF782CAD6ADE009ED119 /* hamtrek */,
@@ -184,7 +175,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39B5CF7D2CAD6ADE009ED119 /* main.c in Sources */,
+				39D634B22CB14F51000572A1 /* ai.c in Sources */,
+				39D634B32CB14F51000572A1 /* battle.c in Sources */,
+				39D634B42CB14F51000572A1 /* colors.c in Sources */,
+				39D634B52CB14F51000572A1 /* colors.h in Sources */,
+				39D634B62CB14F51000572A1 /* crewdialog.c in Sources */,
+				39D634B72CB14F51000572A1 /* crewdialog.h in Sources */,
+				39D634B82CB14F51000572A1 /* events.c in Sources */,
+				39D634B92CB14F51000572A1 /* finish.c in Sources */,
+				39D634BA2CB14F51000572A1 /* hamtrek.c in Sources */,
+				39D634BB2CB14F51000572A1 /* hamtrek.h in Sources */,
+				39D634BC2CB14F51000572A1 /* moving.c in Sources */,
+				39D634BD2CB14F51000572A1 /* osx.c in Sources */,
+				39D634BE2CB14F51000572A1 /* planets.c in Sources */,
+				39D634BF2CB14F51000572A1 /* reports.c in Sources */,
+				39D634C02CB14F51000572A1 /* setup.c in Sources */,
+				39D634C12CB14F51000572A1 /* watch.c in Sources */,
+				39D634C22CB14F51000572A1 /* watch.h in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
