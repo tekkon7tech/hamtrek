@@ -9,7 +9,7 @@ OFILES=     hamtrek.o finish.o reports.o setup.o osx.o moving.o battle.o events.
 HFILES=     hamtrek.h
 
 sst:  $(OFILES)
-	gcc  -o sst $(OFILES) -lm
+	gcc  -o hamtrek $(OFILES) -lm
 
 clean:
 	rm $(OFILES)
