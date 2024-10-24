@@ -441,6 +441,7 @@ void chew2(void);
 void skip(int);
 void prout(char *s);
 void proutn(char *s);
+char *conin(char *str, int n, FILE *stream);
 void stars(void);
 void newqad(int);
 int ja(void);

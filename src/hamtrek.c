@@ -179,7 +179,7 @@ static void helpme(void) {
 	}
 	i = strlen(cmdbuf);
 	do {
-		if (fgets(linebuf, 132, fp) == NULL) {
+		if (conin(linebuf, 132, fp) == NULL) {
 			printDialog(SPOCK, " \"Captain, there is no information on that command.\"");
 			fclose(fp);
 			return;
@@ -195,7 +195,7 @@ static void helpme(void) {
 			linebuf[strlen(linebuf)-1] = '\0'; // No \n at end
 			prout(linebuf);
 		}
-		if(fgets(linebuf,132,fp) != NULL) { }
+		if(conin(linebuf,132,fp) != NULL) { }
 	} while (strstr(linebuf, "******")==NULL);
 	fclose(fp);
 }
@@ -469,7 +469,7 @@ int main(int argc, char **argv) {
 	{
 		setbuf(stdout, NULL);
 		char hamnode[64];
-		if(fgets(hamnode,sizeof(hamnode),stdin) != NULL) printf("NODE: %s\n", hamnode);
+		if(conin(hamnode,sizeof(hamnode),stdin) != NULL) printf("NODE: %s\n", hamnode);
 
 		pthread_t thread_id;
 		if (pthread_create(&thread_id, NULL, watch_thread, NULL) != 0)
@@ -610,7 +610,7 @@ int scan(void) {
 		// gets(line);
 		// We should really be using fgets
 		// scanf("%s", &line);
-		if(fgets(line,sizeof(line),stdin) != NULL)
+		if(conin(line,sizeof(line),stdin) != NULL)
 		{
 			if (line[strlen(line)-1] == '\n')
 				line[strlen(line)-1] = '\0';
@@ -732,6 +732,20 @@ void proutn(char *s) {
 void prout(char *s) {
 	proutn(s);
 	skip(1);
+}
+
+char *conin(char *str, int n, FILE *stream)
+{
+	char *in = fgets(str,n,stream);
+	if(hammode)
+	{
+		FILE *pFile;
+		pFile=fopen("myfile.txt", "a");
+		if(pFile==NULL) printf("Error opening file.");
+		else fprintf(pFile, "%s\n", str);
+		fclose(pFile);
+	}
+	return in;
 }
 
 void prouts(char *s) {
